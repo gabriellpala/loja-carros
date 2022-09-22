@@ -47,11 +47,6 @@ div a {
   max-width: 100%;
   width: 100px;
 }
-section {
-  flex: inherit;
-  display: flex;
-  justify-content: space-around;
-}
 
 div img {
   width: 300px;
@@ -64,4 +59,9 @@ div img {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 150px);
+  grid-template-columns: repeat(2, 450px);
+  justify-content: center;
+}
+
+.item {
+}
